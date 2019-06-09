@@ -1,0 +1,93 @@
+@import url("resource:///org/gtk/libgtk/theme/Adwaita/gtk-contained-dark.css");
+@import url("common.css");
+
+button.titlebutton:backdrop {
+  background-image: -gtk-scaled(
+    url("assets/window-buttons/osx/titlebutton-unfocused-dark.png"),
+    url("assets/window-buttons/osx/titlebutton-unfocused-dark@2.png")
+  );
+}
+
+button.titlebutton.close {
+  background-image: -gtk-scaled(
+    url("assets/window-buttons/osx/titlebutton-close-dark.png"),
+    url("assets/window-buttons/osx/titlebutton-close-dark@2.png")
+  );
+}
+
+button.titlebutton.close:backdrop {
+  background-image: -gtk-scaled(
+    url("assets/window-buttons/osx/titlebutton-close-backdrop-dark.png"),
+    url("assets/window-buttons/osx/titlebutton-close-backdrop-dark@2.png")
+  );
+}
+
+button.titlebutton.close:hover {
+  background-image: -gtk-scaled(
+    url("assets/window-buttons/osx/titlebutton-close-hover-dark.png"),
+    url("assets/window-buttons/osx/titlebutton-close-hover-dark@2.png")
+  );
+}
+
+button.titlebutton.close:active {
+  background-image: -gtk-scaled(
+    url("assets/window-buttons/osx/titlebutton-close-active-dark.png"),
+    url("assets/window-buttons/osx/titlebutton-close-active-dark@2.png")
+  );
+}
+
+button.titlebutton.maximize {
+  background-image: -gtk-scaled(
+    url("assets/window-buttons/osx/titlebutton-maximize-dark.png"),
+    url("assets/window-buttons/osx/titlebutton-maximize-dark@2.png")
+  );
+}
+
+button.titlebutton.maximize:backdrop {
+  background-image: -gtk-scaled(
+    url("assets/window-buttons/osx/titlebutton-maximize-backdrop-dark.png"),
+    url("assets/window-buttons/osx/titlebutton-maximize-backdrop-dark@2.png")
+  );
+}
+
+button.titlebutton.maximize:hover {
+  background-image: -gtk-scaled(
+    url("assets/window-buttons/osx/titlebutton-maximize-hover-dark.png"),
+    url("assets/window-buttons/osx/titlebutton-maximize-hover-dark@2.png")
+  );
+}
+
+button.titlebutton.maximize:active {
+  background-image: -gtk-scaled(
+    url("assets/window-buttons/osx/titlebutton-maximize-active-dark.png"),
+    url("assets/window-buttons/osx/titlebutton-maximize-active-dark@2.png")
+  );
+}
+
+button.titlebutton.minimize {
+  background-image: -gtk-scaled(
+    url("assets/window-buttons/osx/titlebutton-minimize-dark.png"),
+    url("assets/window-buttons/osx/titlebutton-minimize-dark@2.png")
+  );
+}
+
+button.titlebutton.minimize:backdrop {
+  background-image: -gtk-scaled(
+    url("assets/window-buttons/osx/titlebutton-minimize-backdrop-dark.png"),
+    url("assets/window-buttons/osx/titlebutton-minimize-backdrop-dark@2.png")
+  );
+}
+
+button.titlebutton.minimize:hover {
+  background-image: -gtk-scaled(
+    url("assets/window-buttons/osx/titlebutton-minimize-hover-dark.png"),
+    url("assets/window-buttons/osx/titlebutton-minimize-hover-dark@2.png")
+  );
+}
+
+button.titlebutton.minimize:active {
+  background-image: -gtk-scaled(
+    url("assets/window-buttons/osx/titlebutton-minimize-active-dark.png"),
+    url("assets/window-buttons/osx/titlebutton-minimize-active-dark@2.png")
+  );
+}

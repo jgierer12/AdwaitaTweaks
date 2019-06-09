@@ -5,6 +5,7 @@ Slight tweaks on top of GNOME Shell's default Adwaita theme.
 ## Tweaks
 
 - Switched default font to [Inter](https://rsms.me/inter/)
+- Changed window buttons to macOS-style stoplights
 
 ## Installation
 

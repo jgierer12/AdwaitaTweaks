@@ -1,0 +1,20 @@
+button.titlebutton {
+  text-shadow: 0 -1px rgba(0, 0, 0, 0.827451);
+  -gtk-icon-shadow: 0 -1px rgba(0, 0, 0, 0.827451);
+  border: 0;
+  border-image: none;
+  box-shadow: none;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+button.titlebutton:backdrop {
+  -gtk-icon-shadow: none;
+}
+
+button.titlebutton.close,
+button.titlebutton.maximize,
+button.titlebutton.minimize {
+  color: transparent;
+  box-shadow: none;
+}
