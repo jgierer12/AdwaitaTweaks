@@ -1,3 +1,10 @@
 stage {
   font-family: Inter, Sans-Serif;
 }
+
+#panel {
+  background: #3f3e40;
+}
+.panel-corner {
+  -panel-corner-background-color: #3f3e40;
+}
